@@ -59,11 +59,11 @@ main.container {
     position: relative;
 }
 
-/* .card:hover {
+.card:hover {
     transform: scale(1.2, 1.2);
     transition: 1s linear;
     box-shadow: 0 0 5px 0 #0006, 0 0 15px 0 #0009;
-} */
+}
 
 .card p {
     display: flex;
@@ -79,13 +79,13 @@ main.container {
     background-size: cover;
     cursor: pointer;
     margin-top: 10px;
-    /* opacity: .7; */
+    opacity: .7;
 }
 
-/* .card:hover .card-img {
+.card:hover .card-img {
     opacity: 1;
     transition: 1s linear;
-} */
+}
 
 footer {
     box-shadow: 0 0 5px 0 #0006;

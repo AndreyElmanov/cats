@@ -1,5 +1,5 @@
 if (!document.cookie) {
-  window.location.replace("/auth.html");
+  window.location.replace("auth.html");
 }
 
 const main = document.querySelector("main");

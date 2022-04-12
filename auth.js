@@ -5,12 +5,12 @@ authForm.addEventListener("submit", (e) => {
     if (inputName.value.trim() !== "") {
         document.cookie = `user=${inputName.value}; secure; samesity=lax`;
         inputName.value = "";
-        window.location.replace("/index.html")
+        window.location.replace("index.html")
     } else {
         alert("Вы не авторизовались. Введите ваше имя.");
     }
 })
 
 if (document.cookie) {
-    window.location.replace("/index.html")
+    window.location.replace("index.html")
 }
